@@ -1,0 +1,138 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;900&family=Roboto:wght@300;400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(182, 170, 170);
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: brown;
+}
+.fa-pencil{
+    font-size: 25px;
+}
+h3{
+    font-size: 1.5rem;
+    color: #fff;
+}
+h2,h5{
+    font-weight: bold;
+}
+header{
+    background-color: black;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 1rem;
+    
+}
+.redes-sociales{
+    display: flex;
+    justify-content: flex-end;
+}
+header .redes-sociales i{
+    font-size: 1.7rem;
+    padding: 4px;
+    margin: 5px;
+    color: #fff;
+
+}
+section.hero{
+margin: 10px;
+background-image: url('img/img1.jpg');
+height: 60vh;
+background-size: 100%;
+background-position: center top;
+border-radius: 10px 10px 0 0;
+
+}
+.info-perfil{
+    position: relative;
+    border: 2px solid #fff;
+    border-radius: 0 0 20px 20px;
+    margin: 0 10px;
+    padding: 20px;
+    height: 250px;
+}
+
+.img-perfil img{
+    margin-top: -8%;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+.logo-arprog{
+    position: absolute;
+    bottom: 30%;
+    right: 20px;
+}
+.logo-arprog img{
+    width: 200px;
+
+}
+.acerca-de{
+    height: 100px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.experiencia{
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    height: 600px;
+}
+.experiencia-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.edit-experiencia {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.edit-experiencia div{
+    display: flex;
+    justify-content: space-between;
+}
+.edit-experiencia div a{
+    margin-right: 10px;
+}
+.educacion-container div:first-of-type{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.add-educacion{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.add-educacion > div a{
+    margin-right: 10px;
+}
+
+
+    
+    
+    
+
